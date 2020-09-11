@@ -28,7 +28,7 @@ def printt():   #Print command
 	aa1=aa.get()
 	sk1=sk.get()
 	skc1=skc.get()
-	text="M48\n"+(f"Clean, {cln1}\n")+(f"Auto-Assign, {aa1}\n")+(f"Clean, {sk1}\n")+(f"Clean, {skc1}\n")+(f"Cu, {cw1}\n")+(f"PP, {pp1}\n")+(f"Mat, {mt1}\n")+(f"Thk, {bdt1};0.1\n")+(f"Align. {al1}\n")+"%"
+	text="M48\n"+(f"Clean, {cln1}\n")+(f"Auto-Assign, {aa1}\n")+(f"Clean, {sk1}\n")+(f"Skyve-Clean, {skc1}\n")+(f"Cu, {cw1}\n")+(f"PP, {pp1}\n")+(f"Mat, {mt1}\n")+(f"Thk, {bdt1};0.1\n")+(f"Align. {al1}\n")+"%"
 	return text
 	
 
